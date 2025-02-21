@@ -1,0 +1,162 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-image: url(pattern1.svg);
+  background-size: 30%;
+}
+
+.card {
+  margin-top: 60px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 590px;
+  border-radius: 10px;
+  box-shadow: rgba(248, 127, 52, 0.4) 5px 5px, rgba(247, 129, 60, 0.3) 10px 10px,
+    rgba(251, 126, 64, 0.2) 15px 15px, rgba(254, 127, 72, 0.1) 20px 20px,
+    rgba(240, 111, 55, 0.05) 25px 25px;
+  background: #303030;
+  overflow: hidden;
+}
+.ds-top {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #f48931;
+  width: 500px;
+  height: 140px;
+}
+
+.avatar-holder {
+  position: absolute;
+  margin: auto;
+  top: 60px;
+  right: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  overflow: hidden;
+  animation: mvTop 1.5s;
+  border: 4px solid rgba(84, 84, 84, 0.296);
+  margin-top: -10px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  position: absolute;
+  margin: auto;
+  top: -120px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+  font-family: "Work Sans", serif;
+}
+p {
+  margin-top: 7px;
+  color: rgba(202, 201, 201, 0.787);
+  font-size: 17px;
+  font-family: "Work Sans", serif;
+}
+.name a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Work Sans", serif;
+}
+
+h6 {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  width: 40px;
+}
+button {
+  position: relative;
+  padding: 50px;
+  margin: auto;
+  top: 290px;
+  right: 20px;
+  bottom: 0;
+  left: 0px;
+  width: inherit;
+  height: 50px;
+  text-align: center;
+  font-family: "Work Sans", serif;
+}
+.btn-link {
+  display: flex;
+  justify-content: center; /* Centra il contenuto orizzontalmente */
+  align-items: center; /* Centra il contenuto verticalmente */
+  background-color: #f48931;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 96%;
+  height: 100%;
+  margin-top: 10px;
+  font-family: "Work Sans", serif;
+}
+button:hover {
+  background-color: #da7019f8;
+}
+.btn-link a {
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  color: #393939;
+  margin-left: -12px;
+  font-family: "Work Sans", serif;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #393939;
+  margin-right: 18px;
+}
+
+.avatar-holder {
+  background-color: #f48931;
+}
+@keyframes mvTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 40px;
+  }
+}
