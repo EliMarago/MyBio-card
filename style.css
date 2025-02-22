@@ -172,7 +172,24 @@ button:hover {
     top: -163px;
   }
 }
-@media (max-width: 48em) {
+@media (max-width: 28em) {
+  html {
+    font-size: 80%;
+  }
+  .card {
+    width: 375px;
+    height: 655px;
+
+    right: 11px;
+  }
+  .avatar-holder {
+    top: 90px;
+  }
+  .name {
+    top: -163px;
+  }
+}
+@media (max-width: 28em) {
   .avatar-holder {
     top: 80px;
   }
