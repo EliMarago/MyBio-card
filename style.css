@@ -17,7 +17,7 @@ body {
   bottom: 0;
   left: 0;
   width: 500px;
-  height: 590px;
+  height: 650px;
   border-radius: 10px;
   box-shadow: rgba(248, 127, 52, 0.4) 5px 5px, rgba(247, 129, 60, 0.3) 10px 10px,
     rgba(251, 126, 64, 0.2) 15px 15px, rgba(254, 127, 72, 0.1) 20px 20px,
@@ -62,7 +62,7 @@ img {
 .name {
   position: absolute;
   margin: auto;
-  top: -120px;
+  top: -100px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -84,6 +84,7 @@ p {
   font-weight: 700;
   font-size: 24px;
   font-family: "Work Sans", serif;
+  margin-bottom: -5px;
 }
 
 h6 {
@@ -123,7 +124,7 @@ button {
   cursor: pointer;
   width: 96%;
   height: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: "Work Sans", serif;
 }
 button:hover {
@@ -160,8 +161,20 @@ button:hover {
   }
   .card {
     width: 375px;
-    height: 600px;
+    height: 655px;
+
     right: 11px;
+  }
+  .avatar-holder {
+    top: 90px;
+  }
+  .name {
+    top: -163px;
+  }
+}
+@media (max-width: 27em) {
+  .avatar-holder {
+    top: 90px;
   }
 }
 @keyframes mvTop {
