@@ -17,7 +17,7 @@ body {
   bottom: 0;
   left: 0;
   width: 500px;
-  height: 650px;
+  height: 633px;
   border-radius: 10px;
   box-shadow: rgba(248, 127, 52, 0.4) 5px 5px, rgba(247, 129, 60, 0.3) 10px 10px,
     rgba(251, 126, 64, 0.2) 15px 15px, rgba(254, 127, 72, 0.1) 20px 20px,
@@ -33,7 +33,7 @@ body {
   left: 0;
   background-color: #f48931;
   width: 500px;
-  height: 140px;
+  height: 160px;
 }
 
 .avatar-holder {
@@ -62,7 +62,7 @@ img {
 .name {
   position: absolute;
   margin: auto;
-  top: -100px;
+  top: -129px;
   right: 0;
   bottom: 0;
   left: 0;
