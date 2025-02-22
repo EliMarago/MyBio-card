@@ -79,7 +79,7 @@ p {
   font-family: "Work Sans", serif;
 }
 .name a {
-  color: white;
+  color: rgba(224, 224, 224, 0.956);
   text-decoration: none;
   font-weight: 700;
   font-size: 24px;
@@ -107,6 +107,7 @@ button {
   height: 50px;
   text-align: center;
   font-family: "Work Sans", serif;
+  animation: fadeInMove 2s;
 }
 .btn-link {
   display: flex;
@@ -142,6 +143,7 @@ button:hover {
 .icon {
   width: 25px;
   height: 25px;
+
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -152,11 +154,34 @@ button:hover {
 .avatar-holder {
   background-color: #f48931;
 }
+@media (max-width: 35em) {
+  html {
+    font-size: 75%;
+  }
+}
 @keyframes mvTop {
   0% {
     top: -150px;
   }
   100% {
     top: 40px;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    top: -00px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
   }
 }
