@@ -155,9 +155,9 @@ button:hover {
 .avatar-holder {
   background-color: #f48931;
 }
-@media (max-width: 35em) {
+@media (max-width: 30em) {
   html {
-    font-size: 70%;
+    font-size: 80%;
   }
   .card {
     width: 375px;
@@ -169,12 +169,12 @@ button:hover {
     top: 90px;
   }
   .name {
-    top: -190px;
+    top: -163px;
   }
 }
-@media (max-width: 27em) {
+@media (max-width: 48em) {
   .avatar-holder {
-    top: 90px;
+    top: 80px;
   }
 }
 @keyframes mvTop {
