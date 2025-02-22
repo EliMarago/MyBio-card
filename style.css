@@ -157,7 +157,7 @@ button:hover {
 }
 @media (max-width: 35em) {
   html {
-    font-size: 75%;
+    font-size: 60%;
   }
   .card {
     width: 375px;
