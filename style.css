@@ -171,6 +171,17 @@ button:hover {
   .name {
     top: -163px;
   }
+  .target {
+    background-color: #828181;
+    color: rgb(204, 204, 204);
+  }
+  .target a {
+    color: aliceblue;
+    font-size: 18px;
+  }
+  .target:hover {
+    background-color: #6f6f6f;
+  }
 }
 @media (max-width: 28em) {
   html {
@@ -192,6 +203,17 @@ button:hover {
 @media (max-width: 28em) {
   .avatar-holder {
     top: 80px;
+  }
+  .target {
+    background-color: #828181;
+    color: rgb(204, 204, 204);
+  }
+  .target a {
+    color: aliceblue;
+    font-size: 18px;
+  }
+  .target:hover {
+    background-color: #6f6f6f;
   }
 }
 @keyframes mvTop {
