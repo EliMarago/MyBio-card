@@ -246,7 +246,7 @@ button:hover {
 
 .btn-link.portfolio--btn.target::after {
   content: "Soon";
-  background-color: #fd7645;
+  background-color: #f38021;
   padding: 5px;
   margin-left: 20px;
   color: aliceblue;
