@@ -220,3 +220,38 @@ button:hover {
     left: 0;
   }
 }
+/*Target*/
+
+.btn-link.portfolio--btn.target::after {
+  content: "Soon";
+  background-color: #fd7645;
+  padding: 5px;
+  margin-left: 20px;
+  color: aliceblue;
+  border-radius: 5px;
+  font-weight: bold;
+  animation: pulsazione 1s infinite alternate;
+}
+@keyframes pulsazione {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.target {
+  background-color: #828181;
+  color: rgb(204, 204, 204);
+}
+.target a {
+  color: aliceblue;
+  font-size: 18px;
+}
+.target:hover {
+  background-color: #6f6f6f;
+}
