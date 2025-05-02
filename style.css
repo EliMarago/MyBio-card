@@ -252,6 +252,7 @@ button:hover {
   color: aliceblue;
   border-radius: 5px;
   font-weight: bold;
+   text-transform: uppercase;
   animation: pulsazione 1s infinite alternate;
 }
 @keyframes pulsazione {
