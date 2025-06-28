@@ -166,7 +166,7 @@ button:hover {
     right: 11px;
   }
   .avatar-holder {
-    top: 90px;
+    top: 60px;
   }
   .name {
     top: -163px;
@@ -194,7 +194,7 @@ button:hover {
     right: 11px;
   }
   .avatar-holder {
-    top: 90px;
+    top: 60px;
   }
   .name {
     top: -163px;
@@ -202,7 +202,7 @@ button:hover {
 }
 @media (max-width: 28em) {
   .avatar-holder {
-    top: 80px;
+    top: 70px;
   }
   .target {
     background-color: #828181;
