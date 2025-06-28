@@ -48,7 +48,7 @@ body {
   border-radius: 50%;
   background: white;
   overflow: hidden;
-  animation: mvTop 1.5s;
+  animation: mvTop 2s;
   border: 4px solid rgba(84, 84, 84, 0.296);
   margin-top: -10px;
   overflow: hidden;
@@ -221,7 +221,7 @@ button:hover {
     top: -150px;
   }
   100% {
-    top: 40px;
+    top: 60px;
   }
 }
 @keyframes fadeIn {
