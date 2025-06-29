@@ -86,7 +86,13 @@ p {
   font-family: "Work Sans", serif;
   margin-bottom: -5px;
 }
-
+.mobile-break {
+  display: inline;
+}
+.mobile-break::before {
+  content: "|";
+  margin: 0 4px;
+}
 h6 {
   position: absolute;
   margin: auto;
@@ -179,6 +185,12 @@ button:hover {
   .target:hover {
     background-color: #6f6f6f;
   }
+  .mobile-break {
+    display: block;
+  }
+  .mobile-break::before {
+    content: "";
+  }
 }
 @media (max-width: 28em) {
   html {
@@ -195,6 +207,12 @@ button:hover {
     top: -190px;
     font-size: 20px;
   }
+  .mobile-break {
+    display: block;
+  }
+  .mobile-break::before {
+    content: "";
+  }
 }
 @media (max-width: 28em) {
   .target {
@@ -207,6 +225,12 @@ button:hover {
   }
   .target:hover {
     background-color: #6f6f6f;
+  }
+  .mobile-break {
+    display: block;
+  }
+  .mobile-break::before {
+    content: "";
   }
 }
 @keyframes mvTop {
@@ -245,7 +269,7 @@ button:hover {
   color: aliceblue;
   border-radius: 5px;
   font-weight: bold;
-   text-transform: uppercase;
+  text-transform: uppercase;
   animation: pulsazione 1s infinite alternate;
 }
 @keyframes pulsazione {
